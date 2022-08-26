@@ -18,6 +18,7 @@ public class FlipkartSignup {
 		create.click();
 		WebElement mobileno=driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']"));
 		mobileno.sendKeys("8667550570");
+		System.out.println(mobileno.getAttribute("value"));	
 		WebElement cont=driver.findElement(By.xpath("//button[@class='_2KpZ6l _2HKlqd _3AWRsL']"));
 		cont.click();
 		WebElement pwd=driver.findElement(By.xpath("//input[@class='_2IX_2- _3mctLh VJZDxU']"));
